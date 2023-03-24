@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Jaar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/JaarTest.java" afterDir="false" />
+    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 12">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rechthoek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Woord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/RechthoekTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/WoordTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +55,8 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.JaarTest">
-    <configuration name="JaarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ConverterTest">
+    <configuration name="ConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -64,13 +65,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.JaarTest" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.ConverterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JaarTest.eenJaarDeelbaarDoor4IsEenSchrikkeljaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RechthoekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -79,14 +80,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.JaarTest" />
-      <option name="METHOD_NAME" value="eenJaarDeelbaarDoor4IsEenSchrikkeljaar" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RechthoekTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RechthoekTest.l4b8IsEenRechthoek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTheorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RechthoekTest" />
+      <option name="METHOD_NAME" value="l4b8IsEenRechthoek" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JaarTest.toStringGeeftHetJaarAlsTekst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WoordTest.alainIsGeenPalindroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +111,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.JaarTest" />
-      <option name="METHOD_NAME" value="toStringGeeftHetJaarAlsTekst" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.WoordTest" />
+      <option name="METHOD_NAME" value="alainIsGeenPalindroom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WoordTest.eenLegeStringIsEenPalindroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTheorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.WoordTest" />
+      <option name="METHOD_NAME" value="eenLegeStringIsEenPalindroom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,9 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JaarTest" />
-        <item itemvalue="JUnit.JaarTest.toStringGeeftHetJaarAlsTekst" />
-        <item itemvalue="JUnit.JaarTest.eenJaarDeelbaarDoor4IsEenSchrikkeljaar" />
+        <item itemvalue="JUnit.ConverterTest" />
+        <item itemvalue="JUnit.RechthoekTest" />
+        <item itemvalue="JUnit.RechthoekTest.l4b8IsEenRechthoek" />
+        <item itemvalue="JUnit.WoordTest.eenLegeStringIsEenPalindroom" />
+        <item itemvalue="JUnit.WoordTest.alainIsGeenPalindroom" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +153,23 @@
       <option name="presentableId" value="Default" />
       <updated>1679656043576</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cursus p 12">
+      <created>1679668868148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679668868149</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cursus p 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cursus p 12" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JUnitTheorie$WoordTest_eenWoordIsEenPalindroom.ic" NAME="WoordTest.eenWoordIsEenPalindroom Coverage Results" MODIFIED="1679670226632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.vdab.theorie.domain.*</FILTER>
+    </SUITE>
   </component>
 </project>
