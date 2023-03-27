@@ -1,18 +1,17 @@
 package be.vdab.theorie.domain;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.assertj.core.api.Assertions.*;
 
 class RekeningnummerTest {
-    @Test void BE72091012240116IsCorrect() {
-        new Rekeningnummer("BE72091012240116");
-    }
-    @Test void BE68539007547034IsCorrect() {
-        new Rekeningnummer("BE68539007547034");
-    }
-    @Test void BE02063588295840IsCorrect() {
-        new Rekeningnummer("BE02063588295840");
+    @ParameterizedTest
+    @ValueSource(strings = { "BE72091012240116", "BE68539007547034",
+            "BE02063588295840"})
+    void correcteNummers(String nummer) {
+        new Rekeningnummer(nummer);
     }
     @Test void BE720910122401160IsTeLang() {
         assertThatIllegalArgumentException().isThrownBy(() ->
