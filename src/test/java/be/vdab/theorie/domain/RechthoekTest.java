@@ -3,12 +3,13 @@ package be.vdab.theorie.domain;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
 
 public class RechthoekTest {
 
     @Test
     void l4b8IsEenRechthoek() {
-        assertThat(new Rechthoek(4,8).getOppervlakte()).isEqualTo(32);
+        assertThat(new Rechthoek(8,4).getOppervlakte()).isEqualTo(32);
     }
 
     @Test
@@ -18,21 +19,34 @@ public class RechthoekTest {
 
     @Test
     void l0b10IsEenRechthoek() {
-        assertThat(new Rechthoek(0,10).getOppervlakte()).isEqualTo(0);
+        assertThat(new Rechthoek(10,0).getOppervlakte()).isEqualTo(0);
     }
 
     @Test
     void rechthoekenMetDezelfdeAfmetingenZijGelijk() {
-        assertThat(new Rechthoek(4,5)).isEqualTo(new Rechthoek(4,5));
+        assertThat(new Rechthoek(5,4)).isEqualTo(new Rechthoek(5,4));
     }
 
     @Test
     void rechthoekenMetAndereAfmetingenZijnNietGelijk() {
-        assertThat(new Rechthoek(4,5)).isNotEqualTo(new Rechthoek(5,4));
+        assertThat(new Rechthoek(5,4)).isNotEqualTo(new Rechthoek(6,4));
     }
     @Test
     void deHashCodeVanGelijkeRechthoekenIsGelijk() {
-        assertThat(new Rechthoek(5,8)).hasSameHashCodeAs(new Rechthoek(5,8));
+        assertThat(new Rechthoek(8,5)).hasSameHashCodeAs(new Rechthoek(8,5));
     }
 
+    @Test
+    void eenLengteMagNietNegatiefZijn() {
+        assertThatIllegalArgumentException().isThrownBy(
+                ()-> new Rechthoek(-1,5)
+        );
+    }
+
+    @Test
+    void eenBreedteMagNietNegatiefZijn() {
+        assertThatIllegalArgumentException().isThrownBy(
+                ()-> new Rechthoek(5,-1)
+        );
+    }
 }

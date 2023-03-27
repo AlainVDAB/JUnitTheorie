@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 19 start Equals en hashCode">
+    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 20 start Exceptions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rekeningnummer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Statistiek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/RekeningnummerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/StatistiekTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rechthoek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rechthoek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rekening.java" afterDir="false" />
@@ -65,8 +69,8 @@
       <recent name="be.vdab.theorie.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RekeningTest.stortMetNullKanNiet">
-    <configuration name="RechthoekTest.deHashCodeVanGelijkeRechthoekenIsGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RekeningTest">
+    <configuration name="RechthoekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -76,13 +80,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
       <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RechthoekTest" />
-      <option name="METHOD_NAME" value="deHashCodeVanGelijkeRechthoekenIsGelijk" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechthoekTest.rechthoekenMetAndereAfmetingenZijnNietGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RechthoekTest.eenBreedteMagNietNegatiefZijn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -92,23 +95,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
       <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RechthoekTest" />
-      <option name="METHOD_NAME" value="rechthoekenMetAndereAfmetingenZijnNietGelijk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RechthoekTest.rechthoekenMetDezelfdeAfmetingenZijGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitTheorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RechthoekTest" />
-      <option name="METHOD_NAME" value="rechthoekenMetDezelfdeAfmetingenZijGelijk" />
+      <option name="METHOD_NAME" value="eenBreedteMagNietNegatiefZijn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RekeningTest.stortMetNullKanNiet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RekeningnummerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -138,20 +125,34 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RekeningTest" />
-      <option name="METHOD_NAME" value="stortMetNullKanNiet" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RekeningnummerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatistiekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTheorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.StatistiekTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RekeningTest.stortMetNullKanNiet" />
         <item itemvalue="JUnit.RekeningTest" />
-        <item itemvalue="JUnit.RechthoekTest.deHashCodeVanGelijkeRechthoekenIsGelijk" />
-        <item itemvalue="JUnit.RechthoekTest.rechthoekenMetAndereAfmetingenZijnNietGelijk" />
-        <item itemvalue="JUnit.RechthoekTest.rechthoekenMetDezelfdeAfmetingenZijGelijk" />
+        <item itemvalue="JUnit.StatistiekTest" />
+        <item itemvalue="JUnit.RekeningnummerTest" />
+        <item itemvalue="JUnit.RechthoekTest" />
+        <item itemvalue="JUnit.RechthoekTest.eenBreedteMagNietNegatiefZijn" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679906308818</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cursus p 20 start Exceptions">
+      <created>1679909227723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679909227723</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +219,8 @@
     <MESSAGE value="Cursus p 17 start Veiling" />
     <MESSAGE value="Cursus p 18 start Test fixtures" />
     <MESSAGE value="Cursus p 19 start Equals en hashCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cursus p 19 start Equals en hashCode" />
+    <MESSAGE value="Cursus p 20 start Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cursus p 20 start Exceptions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JUnitTheorie$WoordTest_eenWoordIsEenPalindroom.ic" NAME="WoordTest.eenWoordIsEenPalindroom Coverage Results" MODIFIED="1679670226632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
