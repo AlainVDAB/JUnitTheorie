@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 12">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rechthoek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Woord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/RechthoekTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/WoordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Artikel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rekening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/ArtikelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/RekeningTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -50,12 +50,69 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ConverterTest">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="be.vdab.theorie.domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RekeningTest">
+    <configuration name="ArtikelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTheorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.ArtikelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArtikelTest.eenArtikelMetPrijs1is1Komma21InclciefBtw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTheorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.ArtikelTest" />
+      <option name="METHOD_NAME" value="eenArtikelMetPrijs1is1Komma21InclciefBtw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArtikelTest.eenArtikelMetPrijs88is106komma48InclciefBtw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTheorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.ArtikelTest" />
+      <option name="METHOD_NAME" value="eenArtikelMetPrijs88is106komma48InclciefBtw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
@@ -71,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechthoekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RekeningTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -80,67 +137,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RechthoekTest" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RekeningTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RechthoekTest.l4b8IsEenRechthoek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitTheorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RechthoekTest" />
-      <option name="METHOD_NAME" value="l4b8IsEenRechthoek" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WoordTest.alainIsGeenPalindroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitTheorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.WoordTest" />
-      <option name="METHOD_NAME" value="alainIsGeenPalindroom" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WoordTest.eenLegeStringIsEenPalindroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitTheorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.WoordTest" />
-      <option name="METHOD_NAME" value="eenLegeStringIsEenPalindroom" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RekeningTest" />
+        <item itemvalue="JUnit.ArtikelTest.eenArtikelMetPrijs88is106komma48InclciefBtw" />
+        <item itemvalue="JUnit.ArtikelTest" />
+        <item itemvalue="JUnit.ArtikelTest.eenArtikelMetPrijs1is1Komma21InclciefBtw" />
         <item itemvalue="JUnit.ConverterTest" />
-        <item itemvalue="JUnit.RechthoekTest" />
-        <item itemvalue="JUnit.RechthoekTest.l4b8IsEenRechthoek" />
-        <item itemvalue="JUnit.WoordTest.eenLegeStringIsEenPalindroom" />
-        <item itemvalue="JUnit.WoordTest.alainIsGeenPalindroom" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +171,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cursus p 12" />
