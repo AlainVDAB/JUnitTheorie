@@ -21,7 +21,18 @@ public class RechthoekTest {
         assertThat(new Rechthoek(0,10).getOppervlakte()).isEqualTo(0);
     }
 
+    @Test
+    void rechthoekenMetDezelfdeAfmetingenZijGelijk() {
+        assertThat(new Rechthoek(4,5)).isEqualTo(new Rechthoek(4,5));
+    }
 
-
+    @Test
+    void rechthoekenMetAndereAfmetingenZijnNietGelijk() {
+        assertThat(new Rechthoek(4,5)).isNotEqualTo(new Rechthoek(5,4));
+    }
+    @Test
+    void deHashCodeVanGelijkeRechthoekenIsGelijk() {
+        assertThat(new Rechthoek(5,8)).hasSameHashCodeAs(new Rechthoek(5,8));
+    }
 
 }

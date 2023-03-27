@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 18 start Test fixtures">
+    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 19 start Equals en hashCode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/VeilingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/VeilingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rechthoek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rechthoek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Rekening.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/RechthoekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/RechthoekTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/RekeningTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/RekeningTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +65,8 @@
       <recent name="be.vdab.theorie.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JaarTest.deHashCodeVanGelijkeJarenIsGelijk">
-    <configuration name="JaarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RekeningTest.stortMetNullKanNiet">
+    <configuration name="RechthoekTest.deHashCodeVanGelijkeRechthoekenIsGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -72,29 +75,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.JaarTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JaarTest.deHashCodeVanGelijkeJarenIsGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitTheorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.JaarTest" />
-      <option name="METHOD_NAME" value="deHashCodeVanGelijkeJarenIsGelijk" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RechthoekTest" />
+      <option name="METHOD_NAME" value="deHashCodeVanGelijkeRechthoekenIsGelijk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JaarTest.jarenMetHetzelfdeJaartalZijnGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RechthoekTest.rechthoekenMetAndereAfmetingenZijnNietGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +91,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.JaarTest" />
-      <option name="METHOD_NAME" value="jarenMetHetzelfdeJaartalZijnGelijk" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RechthoekTest" />
+      <option name="METHOD_NAME" value="rechthoekenMetAndereAfmetingenZijnNietGelijk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RechthoekTest.rechthoekenMetDezelfdeAfmetingenZijGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTheorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RechthoekTest" />
+      <option name="METHOD_NAME" value="rechthoekenMetDezelfdeAfmetingenZijGelijk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VeilingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RekeningTest.stortMetNullKanNiet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -134,19 +138,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.VeilingTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RekeningTest" />
+      <option name="METHOD_NAME" value="stortMetNullKanNiet" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JaarTest.deHashCodeVanGelijkeJarenIsGelijk" />
-        <item itemvalue="JUnit.JaarTest" />
-        <item itemvalue="JUnit.JaarTest.jarenMetHetzelfdeJaartalZijnGelijk" />
-        <item itemvalue="JUnit.VeilingTest" />
+        <item itemvalue="JUnit.RekeningTest.stortMetNullKanNiet" />
         <item itemvalue="JUnit.RekeningTest" />
+        <item itemvalue="JUnit.RechthoekTest.deHashCodeVanGelijkeRechthoekenIsGelijk" />
+        <item itemvalue="JUnit.RechthoekTest.rechthoekenMetAndereAfmetingenZijnNietGelijk" />
+        <item itemvalue="JUnit.RechthoekTest.rechthoekenMetDezelfdeAfmetingenZijGelijk" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679905388009</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cursus p 19 start Equals en hashCode">
+      <created>1679906308818</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679906308818</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +210,8 @@
     <MESSAGE value="Cursus p 12" />
     <MESSAGE value="Cursus p 17 start Veiling" />
     <MESSAGE value="Cursus p 18 start Test fixtures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cursus p 18 start Test fixtures" />
+    <MESSAGE value="Cursus p 19 start Equals en hashCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cursus p 19 start Equals en hashCode" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JUnitTheorie$WoordTest_eenWoordIsEenPalindroom.ic" NAME="WoordTest.eenWoordIsEenPalindroom Coverage Results" MODIFIED="1679670226632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
