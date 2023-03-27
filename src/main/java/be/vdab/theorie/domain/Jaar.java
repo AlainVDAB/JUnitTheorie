@@ -11,4 +11,16 @@ public class Jaar {
     @Override public String toString() {
         return String.valueOf(jaar);
     }
+
+    @Override
+    public boolean equals(Object object) {
+        return object instanceof Jaar anderJaar && jaar == anderJaar.jaar;
+    }
+
+    @Override
+    public int hashCode() {
+        return jaar;
+    }
+
+
 }

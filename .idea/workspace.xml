@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 17 start Veiling">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Veiling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/VeilingTest.java" afterDir="false" />
+    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 18 start Test fixtures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/VeilingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/VeilingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +62,8 @@
       <recent name="be.vdab.theorie.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RekeningTest">
-    <configuration name="ArtikelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JaarTest.deHashCodeVanGelijkeJarenIsGelijk">
+    <configuration name="JaarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -73,13 +72,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.ArtikelTest" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.JaarTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArtikelTest.eenArtikelMetPrijs1is1Komma21InclciefBtw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JaarTest.deHashCodeVanGelijkeJarenIsGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +87,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.ArtikelTest" />
-      <option name="METHOD_NAME" value="eenArtikelMetPrijs1is1Komma21InclciefBtw" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.JaarTest" />
+      <option name="METHOD_NAME" value="deHashCodeVanGelijkeJarenIsGelijk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArtikelTest.eenArtikelMetPrijs88is106komma48InclciefBtw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JaarTest.jarenMetHetzelfdeJaartalZijnGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +103,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.ArtikelTest" />
-      <option name="METHOD_NAME" value="eenArtikelMetPrijs88is106komma48InclciefBtw" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.JaarTest" />
+      <option name="METHOD_NAME" value="jarenMetHetzelfdeJaartalZijnGelijk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RekeningTest" />
+        <item itemvalue="JUnit.JaarTest.deHashCodeVanGelijkeJarenIsGelijk" />
+        <item itemvalue="JUnit.JaarTest" />
+        <item itemvalue="JUnit.JaarTest.jarenMetHetzelfdeJaartalZijnGelijk" />
         <item itemvalue="JUnit.VeilingTest" />
-        <item itemvalue="JUnit.ArtikelTest.eenArtikelMetPrijs88is106komma48InclciefBtw" />
-        <item itemvalue="JUnit.ArtikelTest" />
-        <item itemvalue="JUnit.ArtikelTest.eenArtikelMetPrijs1is1Komma21InclciefBtw" />
+        <item itemvalue="JUnit.RekeningTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679903425318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cursus p 18 start Test fixtures">
+      <created>1679905388009</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679905388009</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +197,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cursus p 12" />
     <MESSAGE value="Cursus p 17 start Veiling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cursus p 17 start Veiling" />
+    <MESSAGE value="Cursus p 18 start Test fixtures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cursus p 18 start Test fixtures" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JUnitTheorie$WoordTest_eenWoordIsEenPalindroom.ic" NAME="WoordTest.eenWoordIsEenPalindroom Coverage Results" MODIFIED="1679670226632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
