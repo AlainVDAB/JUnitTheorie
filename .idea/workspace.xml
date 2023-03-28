@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 26 start ISBN">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/domain/Isbn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/IsbnTest.java" afterDir="false" />
+    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 27 start Parametrized test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/StandaardAfwijking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/exceptions/RepositoryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/repositories/PersoonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/services/PersoonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/util/PersonenCSVMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/services/PersoonServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/RekeningnummerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/RekeningnummerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/StatistiekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/StatistiekTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,7 +57,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -61,66 +66,64 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="be.vdab.theorie.services" />
       <recent name="be.vdab.theorie.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RekeningnummerTest">
-    <configuration name="IsbnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief">
+    <configuration name="PersonenCSVMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.util.PersonenCSVMaker" />
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
+          <option name="PATTERN" value="be.vdab.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.IsbnTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StandaardAfwijking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.StandaardAfwijking" />
+      <module name="JUnitTheorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersoonServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTheorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie.services" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.services.PersoonServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechthoekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
+          <option name="PATTERN" value="be.vdab.theorie.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RechthoekTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RekeningTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitTheorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RekeningTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RekeningnummerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitTheorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.RekeningnummerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="be.vdab.theorie.services" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.services.PersoonServiceTest" />
+      <option name="METHOD_NAME" value="deWeddeStandaardAfwijkingIsPositief" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RekeningnummerTest" />
-        <item itemvalue="JUnit.IsbnTest" />
-        <item itemvalue="JUnit.RekeningTest" />
+        <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" />
+        <item itemvalue="Application.StandaardAfwijking" />
+        <item itemvalue="JUnit.PersoonServiceTest" />
+        <item itemvalue="Application.PersonenCSVMaker" />
         <item itemvalue="JUnit.StatistiekTest" />
-        <item itemvalue="JUnit.RechthoekTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679915050565</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cursus p 27 start Parametrized test">
+      <created>1679923446490</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679923446490</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,10 +232,18 @@
     <MESSAGE value="Cursus p 19 start Equals en hashCode" />
     <MESSAGE value="Cursus p 20 start Exceptions" />
     <MESSAGE value="Cursus p 26 start ISBN" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cursus p 26 start ISBN" />
+    <MESSAGE value="Cursus p 27 start Parametrized test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cursus p 27 start Parametrized test" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JUnitTheorie$WoordTest_eenWoordIsEenPalindroom.ic" NAME="WoordTest.eenWoordIsEenPalindroom Coverage Results" MODIFIED="1679670226632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.vdab.theorie.domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JUnitTheorie$StatistiekTest.ic" NAME="StatistiekTest Coverage Results" MODIFIED="1679923994798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.vdab.theorie.domain.*</FILTER>
     </SUITE>
   </component>

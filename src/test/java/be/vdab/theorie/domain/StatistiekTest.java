@@ -17,7 +17,7 @@ class StatistiekTest {
         assertThat(Statistiek.getGemiddelde(new BigDecimal[] { enigGetal }))
                 .isEqualByComparingTo(enigGetal);
     }
-    @Test void hetGemiddeldeVanEenLegeVerzamelingKanJeNietBerekenen() {
+   @Test void hetGemiddeldeVanEenLegeVerzamelingKanJeNietBerekenen() {
         assertThatIllegalArgumentException().isThrownBy(
                 () -> Statistiek.getGemiddelde(new BigDecimal[] {}));
     }
