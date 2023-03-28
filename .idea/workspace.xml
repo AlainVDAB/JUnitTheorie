@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 27 start Parametrized test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/StandaardAfwijking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/exceptions/RepositoryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/repositories/PersoonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/services/PersoonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/util/PersonenCSVMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/services/PersoonServiceTest.java" afterDir="false" />
+    <list default="true" id="6fae09bb-9c7d-4156-9d6e-0c6c75e0eec8" name="Changes" comment="Cursus p 23 start Dependency injection">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/exceptions/RepositoryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/repositories/WoonplaatsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/services/WoonplaatsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/services/WoonplaatsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/repositories/PersoonRepositoryStub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/StatistiekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/domain/StatistiekTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/services/PersoonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/services/PersoonServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,24 +65,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="be.vdab.taken.services" />
       <recent name="be.vdab.theorie.services" />
       <recent name="be.vdab.theorie.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief">
-    <configuration name="PersonenCSVMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.util.PersonenCSVMaker" />
-      <module name="JUnitTheorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIs2">
     <configuration name="StandaardAfwijking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.StandaardAfwijking" />
       <module name="JUnitTheorie" />
@@ -112,6 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersoonServiceTest.deWeddeStandaardAfwijkingIs2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTheorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie.services" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.services.PersoonServiceTest" />
+      <option name="METHOD_NAME" value="deWeddeStandaardAfwijkingIs2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
@@ -128,16 +131,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatistiekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WoonplaatsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTheorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.domain.*" />
+          <option name="PATTERN" value="be.vdab.taken.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie.domain" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.domain.StatistiekTest" />
+      <option name="PACKAGE_NAME" value="be.vdab.taken.services" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.services.WoonplaatsServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIs2" />
+        <item itemvalue="JUnit.WoonplaatsServiceTest" />
         <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" />
         <item itemvalue="Application.StandaardAfwijking" />
         <item itemvalue="JUnit.PersoonServiceTest" />
-        <item itemvalue="Application.PersonenCSVMaker" />
-        <item itemvalue="JUnit.StatistiekTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679923446490</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cursus p 23 start Dependency injection">
+      <created>1679990668477</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679990668477</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +243,8 @@
     <MESSAGE value="Cursus p 20 start Exceptions" />
     <MESSAGE value="Cursus p 26 start ISBN" />
     <MESSAGE value="Cursus p 27 start Parametrized test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cursus p 27 start Parametrized test" />
+    <MESSAGE value="Cursus p 23 start Dependency injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cursus p 23 start Dependency injection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
