@@ -1,6 +1,7 @@
 package be.vdab.taken.services;
 
 import be.vdab.taken.repositories.WoonplaatsRepository;
+import be.vdab.theorie.repositories.WoonplaatsRepositoryStub;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,11 +11,11 @@ class WoonplaatsServiceTest {
     private WoonplaatsService service;
     @BeforeEach
     void beforeEach() {
-        service = new WoonplaatsService(new WoonplaatsRepository());
+        service = new WoonplaatsService(new WoonplaatsRepositoryStub());
     }
     @Test
     void maxAantalStreepjesInEenWoonplaats() {
         assertThat(
-                service.maxAantalStreepjesInEenWoonplaats()).isNotNegative();
+                service.maxAantalStreepjesInEenWoonplaats()).isEqualTo(3);
 
 }}
